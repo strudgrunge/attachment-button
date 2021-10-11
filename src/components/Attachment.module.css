@@ -1,0 +1,70 @@
+.Attachment input {
+  height: 32px;
+  /* border: 1px solid #cfcfcf; */
+  border-radius: 5px;
+  outline-color: #8e8e8e;
+  margin: 10px 0;
+  /* width: 100%; */
+}
+
+input[type='file']::-webkit-file-upload-button {
+  opacity: 0;
+  width: 200px;
+  height: 32px;
+  display: flex;
+}
+
+input[type='file']::before {
+  /* content: url(attachment); */
+  /* border: 1px solid #999; */
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px 8px;
+  outline: none;
+  z-index: 2;
+  display: inline-block;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  transition: 1s;
+  cursor: pointer;
+}
+.attachmentInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.attachmentInput img {
+  width: 32px;
+}
+/* .attachmentInput button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+} */
+.attachmentBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.filesButton {
+  background: transparent;
+  margin-top: 30px;
+  border: 1px solid #272727;
+  cursor: pointer;
+}
+.ball {
+  margin-left: 32px;
+  margin-top: -14px;
+  background: #272727;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.ball span {
+  color: whitesmoke;
+  font-size: 11px;
+}
+.filesList {
+  list-style: none;
+}
