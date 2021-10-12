@@ -28,14 +28,17 @@ input[type='file']::before {
   transition: 1s;
   cursor: pointer;
 }
+
 .attachmentInput {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .attachmentInput img {
   width: 32px;
 }
+
 /* .attachmentInput button {
   background-color: transparent;
   border: none;
@@ -47,12 +50,14 @@ input[type='file']::before {
   cursor: pointer;
   margin-top: 20px;
 }
+
 .filesButton {
   background: transparent;
   margin-top: 30px;
   border: 1px solid #272727;
   cursor: pointer;
 }
+
 .ball {
   margin-left: 32px;
   margin-top: -14px;
@@ -61,10 +66,27 @@ input[type='file']::before {
   width: 15px;
   height: 15px;
 }
+
 .ball span {
   color: whitesmoke;
   font-size: 11px;
 }
+
 .filesList {
   list-style: none;
+}
+
+.filesList li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filesList span {
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.filesList span img {
+  width: 20px;
 }
